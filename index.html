@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+		<script
+			src="app.js"
+			defer
+		></script>
+		<title>Insect game</title>
+	</head>
+	<body>
+		<div
+			class="start active"
+			id="start"
+		>
+			<h2>Catch the insect</h2>
+			<button
+				class="play"
+				id="play"
+			>
+				Play game
+			</button>
+		</div>
+		<div
+			class="settings"
+			id="settings"
+		>
+			<h2>What is your "favorite" insect?</h2>
+			<div class="insects">
+				<div
+					id="fly"
+					class="card"
+				>
+					<p>fly</p>
+					<img
+						src="img/fly.jpg"
+						alt="fly"
+						class="settings-image"
+					/>
+				</div>
+				<div
+					id="mosquito"
+					class="card"
+				>
+					<p>mosquito</p>
+					<img
+						src="/img/mos.jpg"
+						alt="mosquito"
+						class="settings-image"
+					/>
+				</div>
+				<div
+					id="spider"
+					class="card"
+				>
+					<p>spider</p>
+					<img
+						src="/img/spider.webp"
+						alt="spider"
+						class="settings-image"
+					/>
+				</div>
+				<div
+					id="roach"
+					class="card"
+				>
+					<p>roach</p>
+					<img
+						src="/img/roach.webp"
+						alt="roach"
+						class="settings-image"
+					/>
+				</div>
+			</div>
+		</div>
+		<div
+			class="game"
+			id="game"
+		>
+			<div class="time">Time:</div>
+			<div class="score">Score:</div>
+			<div class="insect"></div>
+		</div>
+	</body>
+</html>
